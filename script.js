@@ -31,22 +31,42 @@ const scrollRevealOption = {
     duration: 1000,
 };
 
-ScrollReveal().reveal(".header-container .section-subheader", {
+ScrollReveal().reveal(".header-content .section-subheader", {
     ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".header-container .section-header", {
+ScrollReveal().reveal(".header-content .section-header", {
     ...scrollRevealOption,
     delay: 500,
 });
 
-ScrollReveal().reveal(".header-container .scroll-btn", {
+ScrollReveal().reveal(".header-content .scroll-btn", {
     ...scrollRevealOption,
     delay: 1000,
 });
 
 ScrollReveal().reveal(".header-container .header-socials", {
     ...scrollRevealOption,
-    origin: "left",
     delay: 1500,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".about-content .section-subheader", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".about-content .section-header", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".about-content p", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".about-content .about-btn", {
+    ...scrollRevealOption,
+    delay: 2000,
 });
